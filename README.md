@@ -6,13 +6,13 @@ BME680 is an integrated environmental sensor developed specifically for mobile a
 Usage:
 ==========
 ***Bme680 supports IIC and SPI communication protocols.***
-If the user uses IIC protocol,The main functions are as follows，And the results of mesurements stored in struct of bme680.sensor_result_value.
+If the user uses IIC protocol,The main functions are as follows，And the results of mesurements stored in struct of ***bme680.sensor_result_value***.
 
 	Seeed_BME680 bme680(IIC_ADDR); //IIC_ADDR is address of IIC device
 	bme680.init();
 	bme680.read_sensor_data();
 
-If user uses SPI protocol,The main functions are as follows，And the results of mesurements stored in struct of bme680.sensor_result_value.
+If user uses SPI protocol,The main functions are as follows，And the results of mesurements stored in struct of ***bme680.sensor_result_value***.
 
 	Seeed_BME680 bme680();//if user uses default pins of UNO development board.(cs-10,mosi-11,miso-12,sck-13)
 	//  Seeed_BME680 bme680(BME_CS, BME_MOSI, BME_MISO,  BME_SCK);//if user customizes pin of SPI hardware interface.
@@ -24,7 +24,7 @@ If user uses SPI protocol,The main functions are as follows，And the results of
 Software reference:
 ----------
 **1.The official drive of Bosch**  
-**2.The BME680 drive of Bosch**
+**2.The BME680 drive of Adafruit**
 
 statement:
 ==========
