@@ -5,7 +5,7 @@ BME680 is an integrated environmental sensor developed specifically for mobile a
 
 Usage:
 ==========
-***Bme680 supports IIC and SPI communication protocols.  ***
+***Bme680 supports IIC and SPI communication protocols.***
 If the user uses IIC protocol,The main functions are as follows，And the results of mesurements stored in struct of bme680.sensor_result_value .  
     Seeed_BME680 bme680(IIC_ADDR); //IIC_ADDR is address of IIC device
     bme680.init();
