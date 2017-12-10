@@ -21,14 +21,14 @@ If user uses SPI protocol,The main functions are as follows，And the results of
 
 ***user also can downloads the source code and running it on arduino IDE,More details in /examples***
 
+Software reference:
+----------
+**1.The official drive of Bosch**  
+**2.The BME680 drive of Bosch**
+
 statement:
 ==========
 This software is written by downey for seeed studio and is licensed under The MIT License. Check License.txt for more information.
-
-Software reference:
-----------
-**1.The official drive of Bosch**
-**2.The BME680 drive of Bosch**
 
 Contributing to this software is warmly welcomed. You can do this basically by
 forking, committing modifications and then pulling requests (follow the links above
