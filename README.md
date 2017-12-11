@@ -23,7 +23,7 @@ user also can downloads the source code and running it on arduino IDE,More detai
 
 Please refer to the document ***/docs/index.html***
 
-Software reference:
+**The software refers to the third party Library:**
 ----------
 **1.The official drive of Bosch**  
 **2.The BME680 drive of Adafruit**
