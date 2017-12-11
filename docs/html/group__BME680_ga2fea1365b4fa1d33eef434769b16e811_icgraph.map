@@ -1,7 +1,0 @@
-<map id="bme680_set_sensor_settings" name="bme680_set_sensor_settings">
-<area shape="rect" id="node2" href="$classSeeed__BME680.html#ac13e51dc4668890177de0c7c7a6fa061" title="Getting four kinds of result value from the sensor. " alt="" coords="245,103,395,145"/>
-<area shape="rect" id="node3" href="$classSeeed__BME680.html#a8a2b8c0351eb138d6cf5b9ef52da5c5b" title="This function implements the temperature value of the read sensor. " alt="" coords="457,5,607,46"/>
-<area shape="rect" id="node4" href="$classSeeed__BME680.html#ac80d7bdfab7dbcaa6d904d400f02497e" title="This function implements the pressure value of the read sensor. " alt="" coords="457,70,607,111"/>
-<area shape="rect" id="node5" href="$classSeeed__BME680.html#a6b364ae467663bf038297101cbef6834" title="This function implements the humidity value of the read sensor. " alt="" coords="457,135,607,177"/>
-<area shape="rect" id="node6" href="$classSeeed__BME680.html#a7557308e6336cc7cf246ff0e884a6e96" title="This function implements the gas value of the read sensor. " alt="" coords="443,201,621,228"/>
-</map>

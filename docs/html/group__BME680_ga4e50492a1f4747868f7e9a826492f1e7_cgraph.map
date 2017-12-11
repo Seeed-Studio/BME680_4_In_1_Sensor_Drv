@@ -1,5 +1,0 @@
-<map id="bme680_get_sensor_mode" name="bme680_get_sensor_mode">
-<area shape="rect" id="node2" href="$group__BME680.html#gaf5548cbdbf327e2c77bdb0afb1dde9e4" title="This API reads the data from the given register address of the sensor. " alt="" coords="232,22,357,48"/>
-<area shape="rect" id="node3" href="$bme680_8c.html#a3d515cc04487284d5543845f599c58b2" title="This internal API is used to validate the device pointer for null conditions. " alt="" coords="565,22,672,48"/>
-<area shape="rect" id="node4" href="$bme680_8c.html#a25e8a0a8d3226f33a5d8f57ffb2fb3d2" title="This internal API is used to set the memory page based on register address. " alt="" coords="406,22,517,48"/>
-</map>

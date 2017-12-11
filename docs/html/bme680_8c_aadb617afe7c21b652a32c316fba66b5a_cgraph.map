@@ -1,7 +1,0 @@
-<map id="set_gas_config" name="set_gas_config">
-<area shape="rect" id="node2" href="$group__BME680.html#ga5d1bad74f7ac28e75aca9d7de66fd2b4" title="This API writes the given data to the register address of the sensor. " alt="" coords="165,22,291,48"/>
-<area shape="rect" id="node3" href="$bme680_8c.html#a3d515cc04487284d5543845f599c58b2" title="This internal API is used to validate the device pointer for null conditions. " alt="" coords="499,22,605,48"/>
-<area shape="rect" id="node5" href="$bme680_8c.html#aa4508da37330f16b676b81aa6df4ac7e" title="This internal API is used to calculate the Heat duration value. " alt="" coords="171,123,285,150"/>
-<area shape="rect" id="node6" href="$bme680_8c.html#afb0d4e9c93c9847e57c0e311a45532a9" title="This internal API is used to calculate the Heat Resistance value. " alt="" coords="171,174,285,200"/>
-<area shape="rect" id="node4" href="$bme680_8c.html#a25e8a0a8d3226f33a5d8f57ffb2fb3d2" title="This internal API is used to set the memory page based on register address. " alt="" coords="339,22,450,48"/>
-</map>

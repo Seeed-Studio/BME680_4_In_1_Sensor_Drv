@@ -1,9 +1,0 @@
-<map id="calc_heater_dur" name="calc_heater_dur">
-<area shape="rect" id="node2" href="$bme680_8c.html#aadb617afe7c21b652a32c316fba66b5a" title="This internal API is used to set the gas configuration of the sensor. " alt="" coords="169,111,279,137"/>
-<area shape="rect" id="node3" href="$group__BME680.html#ga2fea1365b4fa1d33eef434769b16e811" title="This API is used to set the oversampling, filter and T,P,H, gas selection settings in the sensor..." alt="" coords="328,111,520,137"/>
-<area shape="rect" id="node4" href="$classSeeed__BME680.html#ac13e51dc4668890177de0c7c7a6fa061" title="Getting four kinds of result value from the sensor. " alt="" coords="568,103,717,145"/>
-<area shape="rect" id="node5" href="$classSeeed__BME680.html#a8a2b8c0351eb138d6cf5b9ef52da5c5b" title="This function implements the temperature value of the read sensor. " alt="" coords="780,5,929,46"/>
-<area shape="rect" id="node6" href="$classSeeed__BME680.html#ac80d7bdfab7dbcaa6d904d400f02497e" title="This function implements the pressure value of the read sensor. " alt="" coords="780,70,929,111"/>
-<area shape="rect" id="node7" href="$classSeeed__BME680.html#a6b364ae467663bf038297101cbef6834" title="This function implements the humidity value of the read sensor. " alt="" coords="780,135,929,177"/>
-<area shape="rect" id="node8" href="$classSeeed__BME680.html#a7557308e6336cc7cf246ff0e884a6e96" title="This function implements the gas value of the read sensor. " alt="" coords="766,201,943,228"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="calc_gas_resistance" name="calc_gas_resistance">
-<area shape="rect" id="node2" href="$bme680_8c.html#a1218d033abf33a82f27b86836fc9feb3" title="This internal API is used to calculate the field data of sensor. " alt="" coords="195,111,306,137"/>
-<area shape="rect" id="node3" href="$group__BME680.html#ga1025301e420e1e21911044bebb62f940" title="This API reads the pressure, temperature and humidity and gas data from the sensor, compensates the data and store it in the bme680_data structure instance passed by the user. " alt="" coords="355,111,525,137"/>
-<area shape="rect" id="node4" href="$classSeeed__BME680.html#ac13e51dc4668890177de0c7c7a6fa061" title="Getting four kinds of result value from the sensor. " alt="" coords="573,103,723,145"/>
-<area shape="rect" id="node5" href="$classSeeed__BME680.html#a8a2b8c0351eb138d6cf5b9ef52da5c5b" title="This function implements the temperature value of the read sensor. " alt="" coords="785,5,935,46"/>
-<area shape="rect" id="node6" href="$classSeeed__BME680.html#ac80d7bdfab7dbcaa6d904d400f02497e" title="This function implements the pressure value of the read sensor. " alt="" coords="785,70,935,111"/>
-<area shape="rect" id="node7" href="$classSeeed__BME680.html#a6b364ae467663bf038297101cbef6834" title="This function implements the humidity value of the read sensor. " alt="" coords="785,135,935,177"/>
-<area shape="rect" id="node8" href="$classSeeed__BME680.html#a7557308e6336cc7cf246ff0e884a6e96" title="This function implements the gas value of the read sensor. " alt="" coords="771,201,949,228"/>
-</map>

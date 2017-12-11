@@ -1,4 +1,0 @@
-<map id="bme680_get_regs" name="bme680_get_regs">
-<area shape="rect" id="node2" href="$bme680_8c.html#a3d515cc04487284d5543845f599c58b2" title="This internal API is used to validate the device pointer for null conditions. " alt="" coords="339,5,445,32"/>
-<area shape="rect" id="node3" href="$bme680_8c.html#a25e8a0a8d3226f33a5d8f57ffb2fb3d2" title="This internal API is used to set the memory page based on register address. " alt="" coords="179,31,290,57"/>
-</map>

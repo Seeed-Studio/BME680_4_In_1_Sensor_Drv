@@ -1,5 +1,0 @@
-<map id="get_mem_page" name="get_mem_page">
-<area shape="rect" id="node2" href="$group__BME680.html#ga7f0f1a4378bc6cd0a34acf62509cdec7" title="This API performs the soft reset of the sensor. " alt="" coords="165,5,299,32"/>
-<area shape="rect" id="node3" href="$group__BME680.html#gaee75ae524b7ca8f4a9b6dbb7f640c2e4" title="This API is the entry point. It reads the chip&#45;id and calibration data from the sensor. " alt="" coords="347,5,439,32"/>
-<area shape="rect" id="node4" href="$classSeeed__BME680.html#a4846419351641b3d97742206f81db3ea" title="Initialization of sensor. " alt="" coords="488,5,629,32"/>
-</map>

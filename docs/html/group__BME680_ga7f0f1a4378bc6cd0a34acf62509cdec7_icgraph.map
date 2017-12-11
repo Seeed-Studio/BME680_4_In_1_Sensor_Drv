@@ -1,4 +1,0 @@
-<map id="bme680_soft_reset" name="bme680_soft_reset">
-<area shape="rect" id="node2" href="$group__BME680.html#gaee75ae524b7ca8f4a9b6dbb7f640c2e4" title="This API is the entry point. It reads the chip&#45;id and calibration data from the sensor. " alt="" coords="187,5,279,32"/>
-<area shape="rect" id="node3" href="$classSeeed__BME680.html#a4846419351641b3d97742206f81db3ea" title="Initialization of sensor. " alt="" coords="328,5,469,32"/>
-</map>

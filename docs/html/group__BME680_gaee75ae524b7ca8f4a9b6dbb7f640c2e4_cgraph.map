@@ -1,9 +1,0 @@
-<map id="bme680_init" name="bme680_init">
-<area shape="rect" id="node2" href="$group__BME680.html#gaf5548cbdbf327e2c77bdb0afb1dde9e4" title="This API reads the data from the given register address of the sensor. " alt="" coords="328,70,453,96"/>
-<area shape="rect" id="node3" href="$bme680_8c.html#a3d515cc04487284d5543845f599c58b2" title="This internal API is used to validate the device pointer for null conditions. " alt="" coords="661,120,768,147"/>
-<area shape="rect" id="node5" href="$group__BME680.html#ga7f0f1a4378bc6cd0a34acf62509cdec7" title="This API performs the soft reset of the sensor. " alt="" coords="147,196,280,223"/>
-<area shape="rect" id="node8" href="$bme680_8c.html#ab8322c91a5c8fa1ef4644695923c641d" title="This internal API is used to read the calibrated data from the sensor. " alt="" coords="160,120,267,147"/>
-<area shape="rect" id="node4" href="$bme680_8c.html#a25e8a0a8d3226f33a5d8f57ffb2fb3d2" title="This internal API is used to set the memory page based on register address. " alt="" coords="502,70,613,96"/>
-<area shape="rect" id="node6" href="$bme680_8c.html#aacb28f84d81ec8f79c74646cc970f2dd" title="This internal API is used to get the memory page based on register address. " alt="" coords="502,272,613,299"/>
-<area shape="rect" id="node7" href="$group__BME680.html#ga5d1bad74f7ac28e75aca9d7de66fd2b4" title="This API writes the given data to the register address of the sensor. " alt="" coords="328,171,453,198"/>
-</map>
