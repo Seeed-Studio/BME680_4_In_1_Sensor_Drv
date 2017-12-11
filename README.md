@@ -21,7 +21,7 @@ If user uses SPI protocol,The main functions are as follows，And the results of
 
 user also can downloads the source code and running it on arduino IDE,More details in ***examples/seeed_bme680_test/***
 
-Please refer to the document ***/docs/index.html***
+There is a well configured Doxyfile for user to generate documents.
 
 **The software refers to the third party Library:**
 ----------
