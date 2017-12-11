@@ -8,9 +8,12 @@
 
 #define IIC_ADDR  uint8_t(0x76)
 
-//Seeed_BME680 bme680(IIC_ADDR); 
-Seeed_BME680 bme680; 
-//Seeed_BME680 bme680(BME_CS, BME_MOSI, BME_MISO,  BME_SCK);
+
+/**  NOTE!!!!!!!!!!!!  Select the communication protocol correctly **/
+
+//Seeed_BME680 bme680(IIC_ADDR); /* IIC PROTOCOL */
+Seeed_BME680 bme680;             /* SPI PROTOCOL */
+//Seeed_BME680 bme680(BME_CS, BME_MOSI, BME_MISO,  BME_SCK);/*SPI PROTOCOL*/
 
 void setup() {
   Serial.begin(9600);
