@@ -1,21 +1,21 @@
 /**
- * seeed_bme680.cpp
+ * @file seeed_bme680.cpp
  * Library for BME680
  *
  * Copyright (c) 2013 Seeed Technology Co., Ltd.
- * Author        :   downey
- * Create Time   :   2017/12/08
+ * @author        :   downey
+ * @date Create Time   :   2017/12/08
  * Change Log    :
  */
 
 /**
  * @brief The main driver file of BME680 sensor.
  *
- * @note  BME680 support for temperature,humidity,indoor-air_quality(gas) and pressure value measurement,
- * @note  The result of measurement is stored in class  Seeed_BME680->sensor_result_value.
- * @note  BME680 support for two communication protocol-SPI and IIC,The different communication  protocol
- * @note  corresponding different constructor.Furthermore,you can customize the pin when your development board's SPI
- * @note  interface is mismatch with official.All you have to do is choose different ways to instantiate object.
+ * BME680 support for temperature,humidity,indoor-air_quality(gas) and pressure value measurement,
+ * The result of measurement is stored in class  Seeed_BME680->sensor_result_value.
+ * BME680 support for two communication protocol-SPI and IIC,The different communication  protocol
+ * corresponding different constructor.Furthermore,you can customize the pin when your development board's SPI
+ * interface is mismatch with official.All you have to do is choose different ways to instantiate object.
  */
 #include "seeed_bme680.h"
 
@@ -65,10 +65,9 @@ Seeed_BME680::Seeed_BME680(int8_t cs,int8_t mosi,int8_t miso,int8_t sck)
 }
 
 
-/**@brief This function implements the temperature value of the read sensor
- * @param  NONE.
- * @return sensor_result_value.temperature  The result of temperature value.
- */
+///@brief This function implements the temperature value of the read sensor
+/// @param  NONE.
+/// @return sensor_result_value.temperature  The result of temperature value.
 float Seeed_BME680:: read_temperature(void)
 {
 	if(read_sensor_data())
@@ -78,10 +77,10 @@ float Seeed_BME680:: read_temperature(void)
 	return sensor_result_value.temperature;
 }
 
-/**@brief This function implements the pressure value of the read sensor
- * @param  NONE.
- * @return sensor_result_value.pressure  The result of pressure value.
- */
+///@brief This function implements the pressure value of the read sensor
+/// @param  NONE.
+/// @return sensor_result_value.pressure  The result of pressure value.
+///
 float Seeed_BME680:: read_pressure(void)
 {
 	if(read_sensor_data())

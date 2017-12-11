@@ -1,9 +1,3 @@
-/*********************************************************
-*This is a library for the BME680 sensor,including temperature,  gas, humidity,  pressure mesurement. 
-*Get more help from www.seeedstudio.com
-*
-**************************Seeed**************************
-*********************************************************/
 #include "seeed_bme680.h"
 
 #define BME_SCK 13
@@ -14,15 +8,8 @@
 
 #define IIC_ADDR  uint8_t(0x76)
 
-
-Seeed_BME680 bme680(IIC_ADDR);   //IIC communication mode
-//Seeed_BME680 bme680;             //SPI communication mode ,The default pinmap is 10-cs,11-mosi,12-miso,13-sck.
-//Seeed_BME680 bme680(BME_CS, BME_MOSI, BME_MISO,  BME_SCK); //SPI communication mode,user defined pinmap of SPI
-
-
-
-Seeed_BME680 bme680(IIC_ADDR); 
-//Seeed_BME680 bme680; 
+//Seeed_BME680 bme680(IIC_ADDR); 
+Seeed_BME680 bme680; 
 //Seeed_BME680 bme680(BME_CS, BME_MOSI, BME_MISO,  BME_SCK);
 
 void setup() {
@@ -33,7 +20,7 @@ void setup() {
   while (!bme680.init()) 
   {
     Serial.println("bme680 init failed ! can't find device!");
-  	delay(10000);
+  delay(10000);
   }
 }
 
