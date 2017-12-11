@@ -1,0 +1,5 @@
+<map id="get_calib_data" name="get_calib_data">
+<area shape="rect" id="node2" href="$group__BME680.html#gaf5548cbdbf327e2c77bdb0afb1dde9e4" title="This API reads the data from the given register address of the sensor. " alt="" coords="160,22,285,48"/>
+<area shape="rect" id="node3" href="$bme680_8c.html#a3d515cc04487284d5543845f599c58b2" title="This internal API is used to validate the device pointer for null conditions. " alt="" coords="493,22,600,48"/>
+<area shape="rect" id="node4" href="$bme680_8c.html#a25e8a0a8d3226f33a5d8f57ffb2fb3d2" title="This internal API is used to set the memory page based on register address. " alt="" coords="334,22,445,48"/>
+</map>

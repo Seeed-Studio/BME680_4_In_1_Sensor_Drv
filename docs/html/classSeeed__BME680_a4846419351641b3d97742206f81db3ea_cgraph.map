@@ -1,0 +1,16 @@
+<map id="Seeed_BME680::init" name="Seeed_BME680::init">
+<area shape="rect" id="node2" href="$group__BME680.html#gaee75ae524b7ca8f4a9b6dbb7f640c2e4" title="This API is the entry point. It reads the chip&#45;id and calibration data from the sensor. " alt="" coords="195,116,287,143"/>
+<area shape="rect" id="node10" href="$seeed__bme680_8cpp.html#a888081513e582092888c8fdcd640b4c8" title="delay milliseconds " alt="" coords="195,167,287,194"/>
+<area shape="rect" id="node11" href="$seeed__bme680_8cpp.html#a06cb78012712d0d88be680a2279d1e12" title="IIC reading interface. " alt="" coords="208,218,275,244"/>
+<area shape="rect" id="node12" href="$seeed__bme680_8cpp.html#a81561f951d9edc6e0eb57a56b5ba214d" title="IIC wrting interface. " alt="" coords="206,268,277,295"/>
+<area shape="rect" id="node13" href="$seeed__bme680_8cpp.html#a95201cbcc231bfd6a3fef26e8617786f" title="SPI reading interface. " alt="" coords="206,319,277,346"/>
+<area shape="rect" id="node15" href="$seeed__bme680_8cpp.html#a4aa4fe529995021cebcc000b3a6465a3" title="SPI wrting interface. " alt="" coords="204,370,279,396"/>
+<area shape="rect" id="node3" href="$bme680_8c.html#a3d515cc04487284d5543845f599c58b2" title="This internal API is used to validate the device pointer for null conditions. " alt="" coords="851,142,957,168"/>
+<area shape="rect" id="node4" href="$group__BME680.html#ga7f0f1a4378bc6cd0a34acf62509cdec7" title="This API performs the soft reset of the sensor. " alt="" coords="336,91,469,118"/>
+<area shape="rect" id="node8" href="$group__BME680.html#gaf5548cbdbf327e2c77bdb0afb1dde9e4" title="This API reads the data from the given register address of the sensor. " alt="" coords="517,192,643,219"/>
+<area shape="rect" id="node9" href="$bme680_8c.html#ab8322c91a5c8fa1ef4644695923c641d" title="This internal API is used to read the calibrated data from the sensor. " alt="" coords="349,192,456,219"/>
+<area shape="rect" id="node5" href="$bme680_8c.html#aacb28f84d81ec8f79c74646cc970f2dd" title="This internal API is used to get the memory page based on register address. " alt="" coords="691,91,802,118"/>
+<area shape="rect" id="node6" href="$group__BME680.html#ga5d1bad74f7ac28e75aca9d7de66fd2b4" title="This API writes the given data to the register address of the sensor. " alt="" coords="517,142,643,168"/>
+<area shape="rect" id="node7" href="$bme680_8c.html#a25e8a0a8d3226f33a5d8f57ffb2fb3d2" title="This internal API is used to set the memory page based on register address. " alt="" coords="691,192,802,219"/>
+<area shape="rect" id="node14" href="$seeed__bme680_8cpp.html#a4ba07d135fcd4bcfafe1b997dba8f20b" title="SPI read and write one byte. " alt="" coords="357,344,448,371"/>
+</map>

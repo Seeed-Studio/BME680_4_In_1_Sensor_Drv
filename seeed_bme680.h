@@ -10,7 +10,8 @@
 #ifndef _SEEED_BME680_H
 #define _SEEED_BME680_H
 
-/**@file seeed_bme680.h
+/**
+ * @file seeed_bme680.h
  * @author downey
  * @data 2017/12/08
  * @brief Include file.
@@ -26,8 +27,8 @@
 
 #define BME680_DEFAULT_SPIFREQ               (1000000)
 
-/**@brief Result of sensor's value.
- *
+/**
+ * @brief Result of sensor's value.
  */
 typedef struct Result
 {
@@ -43,7 +44,7 @@ typedef struct Result
 
 
 /**
- *
+ * main class
  */
 class Seeed_BME680
 {

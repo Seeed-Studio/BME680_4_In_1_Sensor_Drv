@@ -26,7 +26,8 @@ static int8_t spi_pinmap_miso;
 static int8_t spi_pinmap_sck;
 static int8_t user_define_spi_pinmap_flag;
 
-/**@brief constructor of IIC interface.
+/**
+ *@brief constructor of IIC interface.
  * @param addr The BME680 device IIC address.
  * @return NONE.
  */
@@ -37,7 +38,8 @@ Seeed_BME680::Seeed_BME680(uint8_t addr)
 }
 
 
-/**@brief constructor of SPI interface.
+/**
+ *@brief constructor of SPI interface.
  * @param cs    The cs pin of SPI interface,Default value is 10;
  * @param mosi  The mosi pin of SPI interface,Default value is 11;
  * @param miso  The miso pin of SPI interface,Default value is 12;
@@ -65,9 +67,10 @@ Seeed_BME680::Seeed_BME680(int8_t cs,int8_t mosi,int8_t miso,int8_t sck)
 }
 
 
-///@brief This function implements the temperature value of the read sensor
-/// @param  NONE.
-/// @return sensor_result_value.temperature  The result of temperature value.
+/**
+ *@brief This function implements the temperature value of the read sensor 
+ *@return sensor_result_value.temperature  The result of temperature value.
+ */
 float Seeed_BME680:: read_temperature(void)
 {
 	if(read_sensor_data())
@@ -77,10 +80,10 @@ float Seeed_BME680:: read_temperature(void)
 	return sensor_result_value.temperature;
 }
 
-///@brief This function implements the pressure value of the read sensor
-/// @param  NONE.
-/// @return sensor_result_value.pressure  The result of pressure value.
-///
+/**
+ *@brief This function implements the pressure value of the read sensor
+ *@return sensor_result_value.pressure  The result of pressure value.
+ */
 float Seeed_BME680:: read_pressure(void)
 {
 	if(read_sensor_data())
@@ -90,8 +93,8 @@ float Seeed_BME680:: read_pressure(void)
 	return sensor_result_value.pressure;
 }
 
-/**@brief This function implements the humidity value of the read sensor
- * @param  NONE.
+/**
+ *@brief This function implements the humidity value of the read sensor
  * @return sensor_result_value.humidity  The result of humidity value.
  */
 float Seeed_BME680:: read_humidity(void)
@@ -103,8 +106,8 @@ float Seeed_BME680:: read_humidity(void)
 	return sensor_result_value.humidity;
 }
 
-/**@brief This function implements the gas value of the read sensor
- * @param  NONE.
+/**
+ *@brief This function implements the gas value of the read sensor
  * @return sensor_result_value.gas  The result of gas value.
  */
 float Seeed_BME680:: read_gas(void)
@@ -116,9 +119,9 @@ float Seeed_BME680:: read_gas(void)
 	return sensor_result_value.gas;
 }
 
-/**@brief Getting four kinds of result value from the sensor.
- * @param NONE.
- * @return Result of function excution. The normal exit is only when it returns BME680_OK(0).
+/**
+ *@brief Getting four kinds of result value from the sensor.
+ *@return Result of function excution. The normal exit is only when it returns BME680_OK(0).
  */
 int8_t Seeed_BME680::read_sensor_data(void) 
 {
@@ -188,7 +191,8 @@ int8_t Seeed_BME680::read_sensor_data(void)
 
 
 
-/**@brief  IIC reading interface
+/**
+ *@brief  IIC reading interface
  * @param  dev_id   IIC device address
  * @param  reg_addr The register address for operated.
  * @param  reg_data Storing data read from  registers.
@@ -212,7 +216,8 @@ int8_t iic_read(uint8_t dev_id, uint8_t reg_addr, uint8_t *reg_data, uint16_t le
   return 0;
 }
 
-/**@brief  IIC wrting interface
+/**
+ *@brief  IIC wrting interface
  * @param  dev_id   IIC device address
  * @param  reg_addr The register address for operated.
  * @param  reg_data The data need to be transmitted.
@@ -234,7 +239,8 @@ int8_t iic_write(uint8_t dev_id, uint8_t reg_addr, uint8_t *reg_data, uint16_t l
 }
 
 
-/**@brief  SPI read and write one byte.
+/**
+ *@brief  SPI read and write one byte.
  * @param  x   The byte needs to be transmitted.
  * @return The byte received from sensor.
  */
@@ -261,7 +267,8 @@ static uint8_t spi_transfer(uint8_t x)
 }
 
 
-/**@brief  SPI reading interface
+/**
+ *@brief  SPI reading interface
  * @param  cspin   cspin of SPI hardware interface.
  * @param  reg_addr The register address for operated.
  * @param  reg_data Storing data read from  registers.
@@ -294,7 +301,8 @@ static int8_t spi_read(uint8_t cspin, uint8_t reg_addr, uint8_t *reg_data, uint1
   return 0;
 }
 
-/**@brief  SPI wrting interface
+/**
+ *@brief  SPI wrting interface
  * @param  cspin   cspin of SPI hardware interface.
  * @param  reg_addr The register address for operated.
  * @param  reg_data The data need to be transmitted.
@@ -328,7 +336,8 @@ static int8_t spi_write(uint8_t cspin, uint8_t reg_addr, uint8_t *reg_data, uint
 
 
 
-/**@brief delay milliseconds
+/**
+ *@brief delay milliseconds
  * @param ms   milliseconds
  * @return NONE
  */
@@ -337,8 +346,8 @@ static void delay_msec(uint32_t ms)
   delay(ms);
 }
 
-/**@brief Initialization of sensor
- * @param NONE
+/**
+ *@brief Initialization of sensor
  * @return ture or false
  */
 bool Seeed_BME680::init() 

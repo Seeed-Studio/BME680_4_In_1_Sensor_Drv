@@ -1,0 +1,6 @@
+<map id="bme680_get_sensor_settings" name="bme680_get_sensor_settings">
+<area shape="rect" id="node2" href="$group__BME680.html#gaf5548cbdbf327e2c77bdb0afb1dde9e4" title="This API reads the data from the given register address of the sensor. " alt="" coords="405,5,531,32"/>
+<area shape="rect" id="node3" href="$bme680_8c.html#a3d515cc04487284d5543845f599c58b2" title="This internal API is used to validate the device pointer for null conditions. " alt="" coords="739,81,845,108"/>
+<area shape="rect" id="node5" href="$bme680_8c.html#a1305f9a63464724f6c95a79ef71dd5a1" title="This internal API is used to get the gas configuration of the sensor. " alt="" coords="246,56,357,83"/>
+<area shape="rect" id="node4" href="$bme680_8c.html#a25e8a0a8d3226f33a5d8f57ffb2fb3d2" title="This internal API is used to set the memory page based on register address. " alt="" coords="579,56,690,83"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="spi_transfer" name="spi_transfer">
+<area shape="rect" id="node2" href="$seeed__bme680_8cpp.html#a95201cbcc231bfd6a3fef26e8617786f" title="SPI reading interface. " alt="" coords="146,5,217,32"/>
+<area shape="rect" id="node4" href="$seeed__bme680_8cpp.html#a4aa4fe529995021cebcc000b3a6465a3" title="SPI wrting interface. " alt="" coords="144,56,219,83"/>
+<area shape="rect" id="node3" href="$classSeeed__BME680.html#a4846419351641b3d97742206f81db3ea" title="Initialization of sensor. " alt="" coords="267,31,408,57"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="Seeed_BME680::read_temperature" name="Seeed_BME680::read_temperature">
+<area shape="rect" id="node2" href="$classSeeed__BME680.html#ac13e51dc4668890177de0c7c7a6fa061" title="Getting four kinds of result value from the sensor. " alt="" coords="203,279,352,320"/>
+<area shape="rect" id="node3" href="$group__BME680.html#gae49a6f126c136fb16a8557a67e39d07c" title="This API is used to get the profile duration of the sensor. " alt="" coords="416,185,576,212"/>
+<area shape="rect" id="node4" href="$group__BME680.html#ga1025301e420e1e21911044bebb62f940" title="This API reads the pressure, temperature and humidity and gas data from the sensor, compensates the data and store it in the bme680_data structure instance passed by the user. " alt="" coords="411,236,581,262"/>
+<area shape="rect" id="node13" href="$group__BME680.html#ga5ca765226e758e71c862553c7cc0b371" title="This API is used to set the power mode of the sensor. " alt="" coords="640,388,819,414"/>
+<area shape="rect" id="node15" href="$group__BME680.html#ga2fea1365b4fa1d33eef434769b16e811" title="This API is used to set the oversampling, filter and T,P,H, gas selection settings in the sensor..." alt="" coords="400,337,592,364"/>
+<area shape="rect" id="node5" href="$bme680_8c.html#a3d515cc04487284d5543845f599c58b2" title="This internal API is used to validate the device pointer for null conditions. " alt="" coords="1216,312,1323,338"/>
+<area shape="rect" id="node6" href="$bme680_8c.html#a1218d033abf33a82f27b86836fc9feb3" title="This internal API is used to calculate the field data of sensor. " alt="" coords="674,185,785,212"/>
+<area shape="rect" id="node7" href="$group__BME680.html#gaf5548cbdbf327e2c77bdb0afb1dde9e4" title="This API reads the data from the given register address of the sensor. " alt="" coords="875,286,1000,313"/>
+<area shape="rect" id="node9" href="$bme680_8c.html#a69159f8c41be18f2ff1643d734f0b133" title="This internal API is used to calculate the Gas Resistance value. " alt="" coords="867,134,1008,161"/>
+<area shape="rect" id="node10" href="$bme680_8c.html#abb1620ac62517f7ce02d9418c8e8a795" title="This internal API is used to calculate the humidity value. " alt="" coords="886,185,989,212"/>
+<area shape="rect" id="node11" href="$bme680_8c.html#a446d5e1b3bd406cd1aa45f9253bae797" title="This internal API is used to calculate the pressure value. " alt="" coords="886,236,989,262"/>
+<area shape="rect" id="node12" href="$bme680_8c.html#a00b82ff86883a137b98cc32946d5ee7a" title="This internal API is used to calculate the temperature value. " alt="" coords="876,33,999,60"/>
+<area shape="rect" id="node8" href="$bme680_8c.html#a25e8a0a8d3226f33a5d8f57ffb2fb3d2" title="This internal API is used to set the memory page based on register address. " alt="" coords="1057,286,1167,313"/>
+<area shape="rect" id="node14" href="$group__BME680.html#ga5d1bad74f7ac28e75aca9d7de66fd2b4" title="This API writes the given data to the register address of the sensor. " alt="" coords="875,337,1000,364"/>
+<area shape="rect" id="node16" href="$bme680_8c.html#aadb617afe7c21b652a32c316fba66b5a" title="This internal API is used to set the gas configuration of the sensor. " alt="" coords="674,438,785,465"/>
+<area shape="rect" id="node19" href="$bme680_8c.html#abba830af9f63c4c251701e3001711527" title="This internal API is used to check the boundary conditions. " alt="" coords="671,337,788,364"/>
+<area shape="rect" id="node17" href="$bme680_8c.html#aa4508da37330f16b676b81aa6df4ac7e" title="This internal API is used to calculate the Heat duration value. " alt="" coords="880,489,995,516"/>
+<area shape="rect" id="node18" href="$bme680_8c.html#afb0d4e9c93c9847e57c0e311a45532a9" title="This internal API is used to calculate the Heat Resistance value. " alt="" coords="880,540,995,566"/>
+</map>
